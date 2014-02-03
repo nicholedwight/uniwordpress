@@ -13,25 +13,50 @@
  *
  * @package WordPress
  */
+ 
+if ($_SERVER['SERVER_NAME'] == 'localhost') {
+	// ** MySQL settings - You can get this info from your web host ** //
+	/** The name of the database for WordPress */
+	define('DB_NAME', 'wp_uni');
+	
+	/** MySQL database username */
+	define('DB_USER', 'root');
+	
+	/** MySQL database password */
+	define('DB_PASSWORD', 'root');
+	
+	/** MySQL hostname */
+	define('DB_HOST', 'localhost:8889');
+	
+	/** Database Charset to use in creating database tables. */
+	define('DB_CHARSET', 'utf8');
+	
+	/** The Database Collate type. Don't change this if in doubt. */
+	define('DB_COLLATE', '');
+}
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'fet13000673');
+else {
+	// ** MySQL settings - You can get this info from your web host ** 			
+	/** The name of the database for WordPress */
+	define('DB_NAME', 'fet13000673');
+	
+	/** MySQL database username */
+	define('DB_USER', 'fet13000673');
+	
+	/** MySQL database password */
+	define('DB_PASSWORD', '8LYn8K');
+	
+	/** MySQL hostname */
+	define('DB_HOST', 'mysql5.cems.uwe.ac.uk');
+	
+	/** Database Charset to use in creating database tables. */
+	define('DB_CHARSET', 'utf8');
+	
+	/** The Database Collate type. Don't change this if in doubt. */
+	define('DB_COLLATE', '');
+}
 
-/** MySQL database username */
-define('DB_USER', 'fet13000673');
 
-/** MySQL database password */
-define('DB_PASSWORD', '8LYn8K');
-
-/** MySQL hostname */
-define('DB_HOST', 'mysql5.cems.uwe.ac.uk');
-
-/** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
-
-/** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
 
 /**#@+
  * Authentication Unique Keys and Salts.
