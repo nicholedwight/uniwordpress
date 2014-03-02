@@ -12,6 +12,7 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico"/>
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sail">
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
