@@ -99,7 +99,11 @@ body {
 
 h2 {
 	font-size: 40px;
-    font-family: 'Sail';
+  font-family: 'Junge', Helvetica, Arial, sans-serif;
+}
+
+p {
+	font-family: 'Junge', Georgia, serif;
 }
 
 .pagecontainer {
