@@ -101,6 +101,13 @@ h2 {
 	font-size: 40px;
 }
 
+.pagecontainer {
+	padding: 30px;
+	margin: 0 auto;
+	max-width: 1100px;
+	overflow: auto;
+}
+
 .logo {
 	width: 50%;
 	margin-top: 100px;
@@ -148,7 +155,6 @@ h2 {
 
 .contentcontainer {
 	background-color: #FFFFFF;
-	text-align: center;
 	min-height: 400px;
 	overflow: hidden;
 	padding-top: 30px;
@@ -166,21 +172,16 @@ h2 {
 	padding-top: 10px;
 }
 
-.columnonecol {
-	float: left;
-	width: 30%;
-	padding-bottom: 20px;
-	margin-left: 7%;
+.pagecontainer img.alignleft {
+	margin-right: 16px;
 }
 
-.columnonecol img {
-	padding: 10px;
+.pagecontainer img.alignright {
+	margin-left: 16px;
 }
 
-.columntwocol {
-	float: right;
-	width: 51%;
-	margin-right: 12%;
+.pagecontainer img.aligncenter {
+	margin: 16px auto;
 }
 
 footer {
