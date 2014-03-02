@@ -50,7 +50,7 @@ body 				{ background:#fff; /* Don't forget to style your body to avoid user ove
 
 */
 
-body,
+body, 
 input,
 textarea 			{ /* We strongly recommend you declare font-weight using numerical values, but check to see which weights you're exporting first */ }
 
@@ -77,4 +77,145 @@ h6 					{ font-weight:bold; /* This helps to identify headings at the initial bu
 
 					{ /* Place your styles here for all 'Retina' screens */ }
 
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+header {
+	margin: auto;
+	background-image: url(img/bg.jpg);
+}
+
+body {
+	min-height: 1000px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+.logo {
+	width: 50%;
+	margin-top: 100px;
+	margin-left: 25%;
+}
+
+.searchform {
+	margin-top: 5px;
+	margin-right: 5px;
+	float: right;
+	z-index: 10;
+}
+
+.searchform label {
+	position:absolute;
+	top:-1500px;
+	left:-1500px;
+}
+
+.menu {
+	display: inline-block;
+	background: #d5d5d5;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	margin-top: 6em;
+}
+
+.current_page_item a:link {
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.menu li {
+	display: inline-block;
+	padding-top: 7px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 24px;
+	padding: 15px;
+}
+
+.contentcontainer {
+	background-color: #FFFFFF;
+	text-align: center;
+	min-height: 400px;
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 120px;
+}
+
+.contentcontainer h1 {
+	font-size: 35px;
+	font-weight: lighter;
+}
+
+
+.contentcontainer p {
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.columnonecol {
+	float: left;
+	width: 30%;
+	padding-bottom: 20px;
+	margin-left: 7%;
+}
+
+.columnonecol img {
+	padding: 10px;
+}
+
+.columntwocol {
+	float: right;
+	width: 51%;
+	margin-right: 12%;
+}
+
+footer {
+	text-align: center;
+	min-height: 100px;
+	color: #FFF;
+	background-image: url(img/bg.jpg);
+	bottom: 0;
+	position: relative;
+    margin-top: -120px; /* negative value of footer height */
+    height: 120px;
+    clear:both;
+
+}
+
+.copyright {
+	float: left;
+}
+
+.contactinfo {
+	float: left;
+	height: 40px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.smalllogo {
+	height: 40px;
+	float: left;
+	clear: both;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.alignleft {
+	text-align: left;
+	float: left;
 }

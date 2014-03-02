@@ -1,6 +1,6 @@
 <header>
-	<h1><a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-	<?php bloginfo( 'description' ); ?>
 	<?php get_search_form(); ?>
+	<img src="<?php bloginfo('template_directory');?>/img/logo.png" alt="logo" class="logo">
+	<?php wp_nav_menu(); ?>
 </header>
-<?php wp_nav_menu(); ?>
+<div class="contentcontainer">
